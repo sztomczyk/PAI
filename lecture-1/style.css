@@ -1,0 +1,74 @@
+html, body { margin: 0; padding: 0; }
+
+header {
+    background-color: #c5e3f6;
+}
+
+header .top {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+header .top button {
+    padding: 10px 50px;
+}
+
+header .main {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .main .logo {
+    width: 100px;
+    height: auto;
+}
+
+header .main .logo img {
+    width: 100%;
+}
+
+section.blog {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+section.blog article {
+    margin: 30px;
+}
+
+section.blog article .paragraph {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.form {
+    background: #f4fa9c;
+    padding: 30px 50px;
+}
+
+section.form form {
+    width: 400px;
+}
+
+section.form form .form-group {
+    margin: 0 0 10px 0;
+    display: flex;
+}
+
+section.form form .form-group label {
+    margin: 0 10px 0 0;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+section.table {
+    padding: 30px 20px;
+}
